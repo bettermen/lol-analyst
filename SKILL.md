@@ -1,7 +1,9 @@
 ---
 name: lol-analyst
-description: 英雄联盟数据分析助手。查询召唤师信息、排位数据、对局历史、英雄熟练度，AI智能分析上分策略。需要Riot Games API Key。触发词：查战绩、LOL数据、英雄联盟、排位分析、对局分析、查段位、英雄熟练度、上分建议、lol analyst。
-tags: [lol, league-of-legends, gaming, data-analysis]
+description: "英雄联盟数据分析助手。查询召唤师信息、排位数据、对局历史、英雄熟练度，AI智能分析上分策略。需要Riot Games API Key。触发词：查战绩、LOL数据、英雄联盟、排位分析、对局分析、查段位、英雄熟练度、上分建议、lol analyst。"
+env:
+  RIOT_API_KEY: "Riot Games Developer API Key (必需)。获取方式: developer.riotgames.com 登录后自动生成"
+always: false
 ---
 
 # lol-analyst — 英雄联盟数据分析助手
